@@ -1,8 +1,9 @@
+cmake_minimum_required(VERSION 3.14)
+
 include(GoogleTest)
 
 project(test_suite)
 
-cmake_minimum_required(VERSION 3.14)
 set(CMAKE_CXX_STANDARD 14)
 
 enable_testing()
