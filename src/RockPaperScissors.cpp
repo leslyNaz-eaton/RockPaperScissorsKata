@@ -4,5 +4,9 @@ using namespace std;
 
 string Battle(string x, string y)
 {
-    return "Paper Wins!";
+    if( x=="Paper"&&  y == "Rock")
+   { return "Paper Wins!";}
+
+    else 
+   { return "Scissors Wins!";}
 }

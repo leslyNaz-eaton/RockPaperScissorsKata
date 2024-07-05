@@ -17,3 +17,7 @@ TEST_F(name, WhenRockisPlayedAgainstpaperPaperShouldWin)
 {
    EXPECT_EQ("Paper Wins!", Battle("Paper", "Rock"));
 }
+TEST_F(name,WhenScissorsisPlayedagainstPaperScissorsshouldwin)
+{
+   EXPECT_EQ("Scissors Wins!", Battle("Scissors","Paper"));
+}

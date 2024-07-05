@@ -6,4 +6,5 @@ using namespace std;
 
 string Battle(string, string);
 
+
 #endif
