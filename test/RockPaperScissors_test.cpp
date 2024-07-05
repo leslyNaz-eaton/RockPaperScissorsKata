@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 
 class name : public ::testing::Test
-{ 
+{
 protected:
    void SetUp() override
    {
@@ -11,11 +11,9 @@ protected:
    void TearDown() override
    {
    }
-
 };
 
 TEST_F(name, WhenRockisPlayedAgainstpaperPaperShouldWin)
 {
-   EXPECT_EQ("Paper Wins!",Battle("Paper","Rock"));
-
+   EXPECT_EQ("Paper Wins!", Battle("Paper", "Rock"));
 }

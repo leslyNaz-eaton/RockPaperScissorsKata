@@ -1,10 +1,8 @@
 #include "RockPaperScissors.h"
-#include<iostream>
+#include <iostream>
 using namespace std;
+
 string Battle(string x, string y)
 {
-
-
-
-return "Paper Wins!";
+    return "Paper Wins!";
 }

@@ -1,8 +1,9 @@
 #ifndef ROCKPAPERSCISSORS_H
 #define ROCKPAPERSCISSORS_H
 
-#endif
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-string Battle(string , string);
+string Battle(string, string);
+
+#endif
