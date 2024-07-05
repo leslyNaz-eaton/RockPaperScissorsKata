@@ -1,7 +1,8 @@
+#include "RockPaperScissors.h"
 #include <gtest/gtest.h>
 
 class name : public ::testing::Test
-{
+{ 
 protected:
    void SetUp() override
    {
@@ -10,9 +11,11 @@ protected:
    void TearDown() override
    {
    }
+
 };
 
-TEST_F(name, FirstTest)
+TEST_F(name, WhenRockisPlayedAgainstpaperPaperShouldWin)
 {
-   FAIL() << "I ran!!!";
+   EXPECT_EQ("Paper Wins!",Battle("Paper","Rock"));
+
 }
